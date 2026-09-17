@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/moysklad/api-fns-gov-doc.svg?branch=master)](https://travis-ci.org/moysklad/api-fns-gov-doc)
+[![Build Status](https://travis-ci.org/moysklad/api-gov-fns-doc.svg?branch=master)](https://travis-ci.org/moysklad/api-gov-fns-doc)
 
 Запуск локальной версии документации
 ------------
@@ -6,13 +6,13 @@
 _Чтобы локально развернуть копию документации:_
 
 1. Установить Docker и Docker Compose, следуя инструкциям на https://docs.docker.com/ для своей ОС
-2. Склонировать репозиторий `https://github.com/moysklad/api-fns-gov-doc.git`
+2. Склонировать репозиторий `https://github.com/moysklad/api-gov-fns-doc.git`
 3. В командной строке, перейдите в папку репозитория.
 4. Выполнить команды `docker compose build` и `docker compose up`
 
 Локальная версия документации будет доступна по адресу `http://localhost:4567`
 
-Основная версия документации доступна по адресу https://dev.moysklad.ru/doc/api/fns-gov/
+Основная версия документации доступна по адресу https://dev.moysklad.ru/doc/api/gov-fns/
 
 ## Описание репозитория и структуры документации
 
@@ -102,7 +102,7 @@ python3 scripts/check-doc-links.py --site-dir build
 `scripts/check-doc-links-allowlist.txt`. Они будут выведены как `INFO` и не
 будут прерывать проверку CI.
 Ссылки на API endpoint, например `https://api.moysklad.ru/api/remap/1.2` и
-`https://apps-api.moysklad.ru/api/fns-gov`, считаются справочными ссылками
+`https://apps-api.moysklad.ru/api/gov-fns`, считаются справочными ссылками
 и не проверяются по HTTP.
 
 В GitHub Actions эта проверка запускается на `pull_request` до мержа.
