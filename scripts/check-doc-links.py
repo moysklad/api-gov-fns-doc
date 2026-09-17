@@ -21,7 +21,8 @@ DEFAULT_EXTERNAL_ALLOWLIST = Path(__file__).with_name("check-doc-links-allowlist
 IGNORED_SCHEMES = {"mailto", "tel", "javascript", "data"}
 IGNORED_EXTERNAL_PREFIXES = (
     ("api.moysklad.ru", "/api/remap/1.2"),
-    ("apps-api.moysklad.ru", "/api/vendor/1.0", "/api/gov-fns"),
+    ("api.moysklad.ru", "/api/gov-fns"),
+    ("apps-api.moysklad.ru", "/api/vendor/1.0"),
 )
 REQUEST_HEADERS = {
     "User-Agent": "doc-link-checker/1.0",
