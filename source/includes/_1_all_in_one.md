@@ -123,7 +123,7 @@ Content-Type: application/json
 {
   "errors": [
     {
-      "error": "Неверное значение '5.01' параметра фильтрации 'decree_version'",
+      "error": "Неверное значение '0.00' параметра фильтрации 'decree_version'",
       "code": 1014
     }
   ]
