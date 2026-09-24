@@ -23,6 +23,7 @@ IGNORED_EXTERNAL_PREFIXES = (
     ("api.moysklad.ru", "/api/remap/1.2"),
     ("api.moysklad.ru", "/api/gov-fns"),
     ("apps-api.moysklad.ru", "/api/vendor/1.0"),
+    ("online.moysklad.ru", "/app"),
 )
 REQUEST_HEADERS = {
     "User-Agent": "doc-link-checker/1.0",
